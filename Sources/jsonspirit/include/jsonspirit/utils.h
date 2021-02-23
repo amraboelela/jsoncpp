@@ -10,7 +10,7 @@
 # pragma once
 #endif
 
-#include "json/json_spirit_value.h"
+#include "jsonspirit/value.h"
 #include <map>
 
 namespace json_spirit

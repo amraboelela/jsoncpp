@@ -3,8 +3,8 @@
 
 // json spirit version 4.03
 
-#include "json/json_spirit_writer.h"
-#include "json/json_spirit_writer_template.h"
+#include "jsonspirit/writer.h"
+#include "jsonspirit/writer_template.h"
 
 void json_spirit::write( const Value& value, std::ostream& os )
 {

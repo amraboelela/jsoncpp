@@ -10,9 +10,9 @@
 # pragma once
 #endif
 
-#include "json/json_spirit_value.h"
-#include "json/json_spirit_reader.h"
-#include "json/json_spirit_writer.h"
-#include "json/json_spirit_utils.h"
+#include "jsonspirit/value.h"
+#include "jsonspirit/reader.h"
+#include "jsonspirit/writer.h"
+#include "jsonspirit/utils.h"
 
 #endif

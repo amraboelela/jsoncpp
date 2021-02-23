@@ -1,2 +1,2 @@
-# jsoncpp
+# jsonspirit
 json cpp package

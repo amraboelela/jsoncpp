@@ -4,14 +4,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "jsoncpp",
+    name: "jsonspirit",
     products: [
-        .library(name: "jsoncpp", targets: ["jsoncpp"])
+        .library(name: "jsonspirit", targets: ["jsonspirit"])
     ],
     dependencies: [
         .package(url: "https://github.com/amraboelela/boost", .branch("master")),
     ],
     targets: [
-        .target(name: "jsoncpp", dependencies: ["boost"])
+        .target(name: "jsonspirit", dependencies: ["boost"])
     ]
 )
